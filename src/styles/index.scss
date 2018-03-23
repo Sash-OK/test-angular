@@ -1,0 +1,50 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+*,
+*:after,
+*:before {
+	box-sizing: border-box;
+}
+
+html,
+body {
+	height: 100%;
+	line-height: 1.35;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: normal;
+	color: #000;
+	background: #fff;
+}
+
+
+.layout {
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+	min-height: 100%;
+}
+
+.layout__main {
+	display: flex;
+	flex-direction: row;
+	flex-basis: 100%;
+	padding: 2rem;
+}
+
+.layout__header,
+.layout__footer {
+	flex-basis: auto;
+	padding: 2rem;
+}
+
+.layout__aside {
+	flex-basis: 400px;
+}
+
+.layout__content {
+	flex-basis: 100%;
+}
