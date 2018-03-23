@@ -48,3 +48,14 @@ body {
 .layout__content {
 	flex-basis: 100%;
 }
+
+
+//========
+
+.aside-lnk {
+	color: darken(#2bf, 20%);
+
+	&--active {
+		color: #2bf;
+	}
+}
