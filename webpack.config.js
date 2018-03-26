@@ -22,6 +22,14 @@ const webpack = require('webpack'),
                 warnings: false
             }
         }
+    }),
+    vendorLibs = new webpack.ProvidePlugin({
+        jQuery: 'jquery',
+        $: 'jquery',
+        jquery: 'jquery',
+        _: 'lodash',
+        moment: 'moment',
+        Promise: 'es6-promise-promise'
     });
 
 function setConfig() {
@@ -104,6 +112,7 @@ function setConfig() {
     };
 
     config.plugins = [
+        vendorLibs,
         extractSass,
         mainHTML,
         new webpack.NoEmitOnErrorsPlugin(),

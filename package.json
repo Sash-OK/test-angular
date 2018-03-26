@@ -14,6 +14,8 @@
   "repository": {},
   "devDependencies": {
     "@types/angular": "1.6.43",
+    "@types/jquery": "3.3.1",
+    "@types/lodash": "4.14.106",
     "@types/node": "9.6.0",
     "angular2-template-loader": "0.6.2",
     "autoprefixer": "8.2.0",
@@ -41,6 +43,10 @@
     "@angular/platform-browser-dynamic": "5.2.9",
     "@angular/router": "5.2.9",
     "core-js": "2.5.3",
+    "es6-promise-promise": "1.0.0",
+    "jquery": "3.3.1",
+    "lodash": "4.17.5",
+    "moment": "2.21.0",
     "zone.js": "0.8.20"
   }
 }
